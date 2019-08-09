@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+  url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+  url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?cwtded');
+  src:  url('../fonts/icomoon/icomoon.eot?cwtded#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon/icomoon.ttf?cwtded') format('truetype'),
+  url('../fonts/icomoon/icomoon.woff?cwtded') format('woff'),
+  url('../fonts/icomoon/icomoon.svg?cwtded#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  color: #FFFFF0;
+  position: relative;
+  z-index: 1000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-concept:before {
+  content: "\e900";
+}
+.icon-discussion:before {
+  content: "\e901";
+}
+.icon-code:before {
+  content: "\e902";
+}
+.icon-like:before {
+  content: "\e903";
+}
+.icon-coffee:before {
+  content: "\e90c";
+}
+.icon-games:before {
+  content: "\e90e";
+}
+.icon-consalting:before {
+  content: "\e90d";
+}
+.icon-sport:before {
+  content: "\e90f";
+}
+.icon-jquery:before {
+  content: "\e904";
+}
+.icon-bootstrap:before {
+  content: "\e905";
+}
+.icon-css:before {
+  content: "\e906";
+}
+.icon-git:before {
+  content: "\e907";
+}
+.icon-html5:before {
+  content: "\e908";
+}
+.icon-inkscape:before {
+  content: "\e909";
+}
+.icon-js:before {
+  content: "\e90a";
+}
+.icon-photoshop:before {
+  content: "\e90b";
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "RobotoLight", sans-serif;
+	font-weight: 100;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+section {
+	margin: 0px 0px 10px 0px;
+	overflow: hidden;
+	min-height: 630px;
+}
+a{
+	text-decoration: none;
+}
+.main-resume-section {
+	margin: 0px;
+}
+.main-resume-section .first-block{
+	color:#FFFFF0;
+	background-color: #111212;
+	min-height: 960px;
+}
+.main-resume-section .ava-wrap {
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+.main-resume-section .ava-wrap img {
+	width: 120px;
+	border: 1px solid #FFFFF0;
+	padding: 3px;
+	background-color: #273238;
+}
+.title-text-resume {
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 28px;
+	font-family: "RobotoLight", sans-serif;
+	text-transform: uppercase;
+}
+.title-text-resume h1 {
+	font-size: 25px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+.title-text-resume h2 {
+	font-weight: 100;
+	font-size: 14px;
+	display: inline-block;
+	position: relative;
+	top: -16px;
+	letter-spacing: 1px;
+	text-transform: none;
+	vertical-align: middle;
+}
+.title-text-resume h2:before, .title-text-resume h2:after{
+	position: absolute;
+	content: '';
+	height: 1px;
+	width: 11px;
+	background-color: #FFFFF0;
+	top: 9px;
+}
+.title-text-resume h2:before {
+	left: -13px;
+}
+.title-text-resume h2:after {
+	right: -13px;
+}
+.main-resume-section .skill-block-head h5{
+	margin-left: 65px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'OpenSansBold', sans-serif;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #FFFFF0;
+}
+.main-resume-section .skill-block-head h5:before{
+	position: absolute;
+	content: '';
+	left: 65px;
+	height: 20px;
+	width: 1px;
+	background-color: #FFFFF0;
+}
+.main-resume-section .skill-block-head p{
+	font-size: 14px;
+}
+
+.main-resume-section .skill-block-head i{
+	position: relative;
+	top: 23px;
+	font-size: 24px;
+	left: 14px;
+}
+.first-block > .skill-block p {
+	margin-left: 55px;
+}
+.main-resume-section .skill-block ul {
+	list-style: none;
+	margin-top: 20px;
+	padding: 0;
+	margin-left: -8px;
+}
+.main-resume-section .skill-block li {
+	line-height: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.main-resume-section .skill-block ul i{
+	font-size: 12px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #FFFFF0;
+	border-radius: 50%;
+	padding: 5px;
+	margin-left: 19px;
+	margin-right: 15px;
+	color: #273238;
+	background-color: #FFFFF0;
+}
+.main-resume-section .skill-block ul a:hover{
+	text-decoration: underline;
+}
+.main-resume-section .skill-block ul a{
+	color: #FFFFF0;
+}
+.main-resume-section .skill-block .my-hobbies{
+	text-align: center;
+}
+.main-resume-section .skill-block .my-hobbies li{
+	display: inline-block;
+}
+.main-resume-section .skill-block .my-hobbies li i{
+	margin:0px 10px 0px 10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #FFFFF0;
+	color: #273238;
+	font-size: 20px;
+	padding: 8px;
+}
+.main-resume-section .second-block .skill-block-head {
+	margin-bottom: 20px;
+}
+.main-resume-section .second-block .skill-block-head h5{
+	border-bottom: 1px solid #273238;
+}
+.main-resume-section .second-block .skill-block-head h5:before{
+	position: absolute;
+	content: '';
+	background-color: #273238;
+}
+.portfolio {
+	font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'OpenSansBold', sans-serif;
+    color: #000;
+}
+.skill-box{
+	font-size: 0;
+}
+.skill-box h4, .skill-box p{
+	font-size: 12px !important;
+	letter-spacing: 1px;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 5px;
+}
+.skill-box h4{
+	font-family: 'OpenSansBold', sans-serif;
+}
+.skill-box p{
+	text-align: right;
+}
+.skill	{
+	border: 1.2px solid #273238;
+	border-radius: 1px;
+}
+.skill .skill-level {
+	background-color: #273238;
+	left: -1px;
+	position: relative;
+	height: 6px;
+}
+.second-block .resume-time span:nth-child(1) {
+	position: relative;
+	margin-right: 15px;
+}
+.second-block .resume-time span:nth-child(1):before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 1px;
+	top: 8px;
+	right: -14px;
+	background-color: #273238;
+}
+.second-block .resume-time {
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: 'OpenSansBold', sans-serif;
+}
+.second-block h3 {
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: 'OpenSansBold', sans-serif;
+}
+.second-block h6 {
+	font-size: 12px;
+	display: inline-block;
+	background: rgba(39, 50, 56, 0.10);
+	border-radius: 3px;
+	padding: 2px;
+	letter-spacing: 1px;
+}
+.second-block h6 a {
+	color: #333;
+}
